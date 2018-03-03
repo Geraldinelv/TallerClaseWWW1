@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Movimientos Cliente</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+   <body>
+     <h1>Movimientos cliente</h1>
+     <section>
+       <form class="form-horizontal">
+       <div class="form-group">
+        <label for="desc_mov" class="col-sm-2 control-label"> NombreMovimiento:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="desc_mov" >
+      </div>
+      </div>
+
+      <div class="form-group">
+       <label for="tipo_mov" class="col-sm-2 control-label"> Tipo Movimiento:</label>
+         <div class="col-sm-10">
+       <select class="form-control" id="tipo_mov">
+         <option>DEB</option>
+         <option>CRED</option>
+       </select>
+
+     </div>
+     </div>
+
+     <div class="form-group">
+      <label for="valor_mov" class="col-sm-2 control-label"> Valor Movimiento:</label>
+       <div class="col-sm-10">
+      <input type="text" class="form-control" id="valor_mov" placeholder="$">
+    </div>
+  </div>
+  </form>
+
+   <button type="submit" class="btn btn-primary">Crear Movimiento</button>
+
+    </section>
+
+    <section>
+      <table class="table">
+        <table class="table table-bordered">
+          <thead>
+       <tr>
+           <th>Nombre Movimiento</th>
+           <th>Tipo Movimiento</th>
+           <th>Valor Movimiento</th>
+           <th>Fecha Registro</th>
+           <th>Accion</th>
+       </tr>
+   </thead>
+   <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button type="submit" class="btn btn-primary">Eliminar</button></td>
+
+        </tr>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button type="submit" class="btn btn-primary">Eliminar</button></td>
+
+        </tr>
+        </table>
+      </table>
+    </section>
+
+
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="js/bootstrap.min.js"></script>
+   </body>
+ </html>
